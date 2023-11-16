@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(199, 199, 199);
+}
+.contenedor{
+    background-color: rgb(190, 190, 190);
+    display: grid;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    gap: 5px;
+    grid-template-rows:  25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+.item{
+    border-radius: 50%;
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.color1{
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(153, 116, 89);
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end: 3;
+    color: aliceblue;
+}
+
+.img1{
+    margin-top: 20px;
+}
+
+
+
+.color2 , .color6{
+    background-color: rgb(233, 132, 61);
+}
+
+.color3, .color5 , .color8{
+    background-color: gainsboro;
+}
+.color4 , .color7 , .color9, .color1{
+    background-color: rgb(14, 48, 54);
+}
+
