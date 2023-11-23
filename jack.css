@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 400px;
+    background-color: #D2E8E3;
+    
+
+}
+/* a{
+    text-decoration: none;
+} */
+
+.menu {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    padding: 2px;
+    gap: 5px;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.menu  div{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+    min-width: 150px;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.menu div:hover {
+    background-color: #e4e4e4;
+    transition: 0.5s;
+}
+
+.menu div:first-child {
+    padding-top: 30px;
+    
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #0F6466;
+
+}
+
+.menu  div:nth-child(2) {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #9DA65D;
+
+
+}
+
+.menu div:nth-child(2):hover {
+    opacity: 0%;
+    transition-duration: 3s;
+    transition-property: 4s;
+
+}
+
+.menu  div:nth-child(3) {
+    background-color: #FFCB9A;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+.menu  div:nth-child(4) {
+    background-color: #D8B08C;
+}
+.menu div:nth-child(5) {
+    background-color: #592D14;
+}
+.menu div:nth-child(6) {
+    background-color: #51608C;
+}
+
+
+@media (max-width:720px) {
+    .menu {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70px 70px 70px 70px 70px;
+    }
+
+    .menu div:first-child {
+        background-color: #0F6466;
+        grid-column: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+
+    }
+
+    .menu div:nth-child(2) {
+        background-color: #D2E8E3;
+        grid-column: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+
+    }
+
+    .menu div:nth-child(4) {
+        background-color: #D8B08C;
+        grid-column-start: 1;
+        grid-row-start: 4;
+        grid-row-end: 6;
+
+    }
+
+
+    .menu div:nth-child(3) {
+        background-color: #FFCB9A;
+        grid-column-start: 2;
+        grid-row-start: 6;
+
+    }
+
+
+
+
+}
