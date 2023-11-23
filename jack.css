@@ -99,7 +99,7 @@ a{
 
     .menu div:first-child {
         padding-top: 0;
-        background-color: #0F6466;
+        background-color: #0f6622;
         grid-column: 1;
         grid-column-end: 4;
         grid-row-start: 1;
