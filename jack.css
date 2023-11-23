@@ -8,9 +8,10 @@ body {
     
 
 }
-/* a{
+a{
     text-decoration: none;
-} */
+    color: #D2E8E3;
+}
 
 .menu {
     border-radius: 10px;
@@ -32,6 +33,7 @@ body {
     min-width: 150px;
     text-align: center;
     font-size: 30px;
+    box-shadow: 7px 13px 37px #000;
     
 
 }
@@ -42,8 +44,7 @@ body {
 }
 
 .menu div:first-child {
-    padding-top: 30px;
-    
+    padding-top: 50%;
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 4;
@@ -52,6 +53,8 @@ body {
 }
 
 .menu  div:nth-child(2) {
+    font-size: 30px;
+    padding-top: 50%;
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 4;
@@ -75,12 +78,15 @@ body {
 
 }
 .menu  div:nth-child(4) {
+    padding-top: 20%;
     background-color: #D8B08C;
 }
 .menu div:nth-child(5) {
+    padding-top: 20%;
     background-color: #592D14;
 }
 .menu div:nth-child(6) {
+    padding-top: 20%;
     background-color: #51608C;
 }
 
@@ -92,6 +98,7 @@ body {
     }
 
     .menu div:first-child {
+        padding-top: 0;
         background-color: #0F6466;
         grid-column: 1;
         grid-column-end: 4;
@@ -101,6 +108,7 @@ body {
     }
 
     .menu div:nth-child(2) {
+        padding-top: 0;
         background-color: #D2E8E3;
         grid-column: 1;
         grid-column-end: 4;
@@ -110,6 +118,7 @@ body {
     }
 
     .menu div:nth-child(4) {
+        padding-top: 0;
         background-color: #D8B08C;
         grid-column-start: 1;
         grid-row-start: 4;
@@ -119,6 +128,7 @@ body {
 
 
     .menu div:nth-child(3) {
+        padding-top: 0;
         background-color: #FFCB9A;
         grid-column-start: 2;
         grid-row-start: 6;
